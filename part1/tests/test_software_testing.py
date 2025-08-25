@@ -5,7 +5,7 @@ import pytest
 
 
 
-def test_software_testing(page: Page) -> None:
+def test_software_testing_br(page: Page) -> None:
     quantity_value = "10"
     page.goto("https://practicesoftwaretesting.com/")
 

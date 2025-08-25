@@ -3,7 +3,7 @@ from playwright.sync_api import sync_playwright, Page, expect
 
 
 
-def test_input_validation(page: Page) -> None:
+def test_input_validation_br(page: Page) -> None:
     firstname_value = 'Ivan'
     surname_value = 'IvanovvvvIvanovvvv'
     age_value = '30'
