@@ -2,7 +2,7 @@ from playwright.sync_api import Page, expect, Route
 from http.cookies import SimpleCookie
 
 
-def test_api_examples(page: Page) -> None:
+def test_api_examples_br(page: Page) -> None:
     created_contact = {}
     base_url = "https://thinking-tester-contact-list.herokuapp.com"
     login_email = "test_random@mail.org"
